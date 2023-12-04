@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DigitalBook-store</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="icon" href="LOGO-UNSULBAR.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- bar navigasi -->
+  <div class="container mb-4 mt-3 border shadow rounded-4 bg-success bg-gradient mt-10">
+    <nav class="d-md-flex p-3">
+      <div class="text-black">
+        <h3>Digital</h3>
+      </div>
+      <div class="text-white">
+        <h3>Book</h3>
+      </div>
+      <div class="ms-auto my-auto">
+        <ul class="list-inline m-0 ">
+          <li class="list-inline-item"><a href="Toko.html" class="text-decoration-none text-black mx-md-2">Home</a></li>
+          <li class="list-inline-item"><a href="produk.html"
+              class="text-decoration-none text-black mx-md-2 ">Product</a></li>
+          <li class="list-inline-item"><a href="kategori.html"
+              class="text-decoration-none text-black mx-md-2 ">Category</a></li>
+          <li class="list-inline-item"><a href="contac.html" class="text-decoration-none text-black mx-md-2 ">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row mt-4">
+      <!-- Kategori Best Seller -->
+      <div class="col-md-6">
+        <h2>Best Seller</h2>
+
+
+        <div class="card shadow">
+          <img src="Atomic Habits, Books, Booktok, Atomic Habits Quotes, Books to Read, Books to Read in your 20s.jpeg"
+            class="card-img-top mx-auto" style="width: 231px;" alt="Produk 1">
+          <div class="card-body">
+            <h5 class="card-title">Atomic Habbits</h5>
+            <p class="card-text">James Clear</p>
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detailProduk1">Detail
+              Produk</button>
+          </div>
+        </div>
+
+
+        <div class="card shadow mt-3">
+          <img src="_The Art of Public Speaking.jpeg" class="card-img-top mx-auto" style="width: 193px;" alt="Produk 2">
+          <div class="card-body">
+            <h5 class="card-title">The Art Of Public Speaking</h5>
+            <p class="card-text">Dale Carnagie</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detailProduk2">Detail
+              Produk</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Kategori New Book -->
+      <div class="col-md-6">
+        <h2>New Book</h2>
+
+        <div class="card shadow">
+          <img src="The Third Wave_ An Entrepreneur's Vision of the Future_Hardcover.jpeg" class="card-img-top mx-auto"
+            style="width: 200px;" alt="Produk 3">
+          <div class="card-body">
+            <h5 class="card-title">The Third Wave</h5>
+            <p class="card-text">Steve Case</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detailProduk3">Detail
+              Produk</button>
+          </div>
+        </div>
+
+        <div class="card shadow mt-3">
+          <img src="This Idea is Brilliant_ writing about knowing.jpeg" class="card-img-top mx-auto"
+            style="width: 200px;" alt="Produk 4">
+          <div class="card-body">
+            <h5 class="card-title">This Idea is Brilliant</h5>
+            <p class="card-text">Jhon Brockman</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#detailProduk4">Detail
+              Produk</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Detail Produk 1 -->
+  <div class="modal fade " id="detailProduk1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel1">Detail Produk </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex">
+          <img src="Atomic Habits, Books, Booktok, Atomic Habits Quotes, Books to Read, Books to Read in your 20s.jpeg"
+            style="width: 200px; height: 200px;" class="card-img-top mx-auto" alt="Produk 1">
+          Detail buku:<br>
+          Judul: Atomic Habits “Cara Mudah dan Terbukti Untuk Membentuk kebiasaan Baik dan Menghilangkan Kebiasaan
+          Buruk”<br>
+          Genre: Self Improvement<br>
+          Genre: Self Improvement<br>
+          Penulis: James Clear<br>
+          Penerbit: Gramedia Pustaka Utama<br>
+          Penerjemah: Alex Tri Kantjono Widodo<br>
+          Tahun Terbit: 16 September 2019<br>
+          Jumlah Halaman: 352 halaman
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Detail Produk 2 -->
+  <div class="modal fade" id="detailProduk2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Detail Produk 2</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex">
+          <img src="_The Art of Public Speaking.jpeg" style="width: 200px; height: 200px;"
+            class="card-img-top mx-auto p-2" alt="Produk 1">
+          Judul Buku: The Art of Public Speaking<br>
+          Penulis: Dale Carnegie<br>
+          Penjelasan Singkat: Buku ini merupakan salah satu buku terkemuka yang membahas tentang seni berbicara di depan
+          umum dan keterampilan komunikasi. Dale Carnegie membahas berbagai aspek, mulai dari mempersiapkan pidato,
+          menangani ketakutan berbicara di depan umum, hingga teknik untuk meningkatkan kepercayaan diri saat
+          berbicara.<br>
+          Jumlah Halaman: 350-400 halaman.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Detail Produk 3 -->
+  <div class="modal fade" id="detailProduk3" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Detail Produk 2</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex">
+          <img src="The Third Wave_ An Entrepreneur's Vision of the Future_Hardcover.jpeg"
+            style="width: 200px; height: 200px;" class="card-img-top mx-auto p-2" alt="Produk 3">
+          Judul: The Third Wave: An Entrepreneur's Vision of the Future<br>
+          Penulis: Steve Case<br>
+          Penerbit: Simon & Schuster<br>
+          Tahun Terbit: 2016<br>
+          Jumlah Halaman: 240-260 halaman 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Detail Produk 3 -->
+  <div class="modal fade" id="detailProduk4" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Detail Produk 2</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex">
+          <img src="This Idea is Brilliant_ writing about knowing.jpeg"
+            style="width: 200px; height: 200px;" class="card-img-top mx-auto p-2" alt="Produk 3">
+            Judul: This Idea Is Brilliant: Lost, Overlooked, and Underappreciated Scientific Concepts Everyone Should Know<br>
+            Penulis/Editor: John Brockman (sebagai editor)<br>
+            Penerbit: Harper Perennial<br>
+            Tahun Terbit: Pertama kali diterbitkan pada Januari 2018.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container bg-white mt-5 rounded-2 border border border-dark-subtle">
+    <h5 class="text-center text-danger p-2">UAS PEMROGRAMAN WEB</h5>
+  </div>
+
+  <a href="https://wa.me/085757613893" class="whatsapp-float" target="_blank">
+    <img src="logo wa.jpeg" alt="WhatsApp Logo">
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
